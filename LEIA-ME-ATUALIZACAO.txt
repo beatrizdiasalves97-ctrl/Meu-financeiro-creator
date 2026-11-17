@@ -1,0 +1,15 @@
+CREATOR HUB V2 — ATUALIZAÇÃO
+
+Antes de atualizar: faça backup JSON da versão antiga e guarde no iCloud Drive.
+
+Como publicar a atualização:
+1. Descompacte este ZIP no app Arquivos.
+2. Abra o repositório GitHub: https://github.com/beatrizdiasalves97-ctrl/Meu-financeiro-creator
+3. Envie/substitua na raiz os arquivos index.html, manifest.webmanifest, sw.js, icon-192.png e icon-512.png. O README é opcional.
+4. Confirme o commit e aguarde o GitHub Pages concluir o deploy.
+5. Feche o app instalado. Abra a URL do site no Safari e atualize. O cache foi renomeado para creator-hub-v2.
+6. Faça cadastros de teste.
+
+ATENÇÃO AOS DADOS:
+Esta versão usa um novo banco local chamado creatorHubBiaDB. Na primeira abertura, ela tenta importar automaticamente as publis do banco local da versão anterior (nome e valor, data, entrega, pagamento e observações). Os registros antigos não são apagados. Confira a aba Financeiro depois da atualização. A importação automática só funciona no mesmo navegador/aparelho em que você usava o app antigo. Guarde também o backup antigo por segurança. Os backups JSON da versão 2 podem ser restaurados na aba Backup.
+Os dados ficam no navegador/aparelho; não existe sincronização automática em nuvem. Exporte backups regularmente.
